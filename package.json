@@ -1,0 +1,9 @@
+{
+  "name": "zuzjes",
+  "version": "0.0.0",
+  "description": "Personal website of Zuzana Jeschke",
+  "repository": "git@github.com:zuzjes/zuzjes.com.git",
+  "author": "Zuzana Jeschke <zuz@zuzjes.com>",
+  "license": "MIT",
+  "private": true
+}
