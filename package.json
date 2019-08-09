@@ -5,5 +5,15 @@
   "repository": "git@github.com:zuzjes/zuzjes.com.git",
   "author": "Zuzana Jeschke <zuz@zuzjes.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "static": "yarn run build && next export"
+  }
 }
