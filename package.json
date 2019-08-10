@@ -8,6 +8,7 @@
   "private": true,
   "dependencies": {
     "next": "^9.0.3",
+    "next-images": "^1.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

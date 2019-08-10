@@ -1,8 +1,10 @@
 import Head from "next/head";
-import fb from "../assets/icons/facebook.svg";
+import facebook from "../assets/icons/facebook.svg";
 import twitter from "../assets/icons/twitter.svg";
-import fb from "../assets/icons/facebook.svg";
-import fb from "../assets/icons/facebook.svg";
+import linkedin from "../assets/icons/linkedin.svg";
+import github from "../assets/icons/github.svg";
+import instagram from "../assets/icons/instagram.svg";
+import resume from "../assets/icons/resume.svg";
 
 export default () => {
   return (
@@ -11,80 +13,68 @@ export default () => {
         <title>ZuzJes</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
-          href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap"
+          href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <div className="w-40 container">
+      <div className="w-45 container">
         <h2 className="center">
-          <b>Zuzana Jeschke</b>
+          <b>Zuzka Jeschke</b>
         </h2>
         <p>
-          Jmenuji se Zuzana Jeschke a vždy mě naplňovalo umění a kreativní
-          tvorba. Web design spojil koníček a práci v celek, díky čemuž mě baví
-          sledovat aktuální trendy a mým cílem je vždy dovést své grafické vize
-          k dokonalosti.
+          Jsem velký nadšenec do hor, lezení a svého psa -{" "}
+          <a href="https://www.instagram.com/jsemnela/">Nely</a>.
         </p>
+        <p>
+          Věnuji se převážne frontendu, jednou chci být hustá programátorka.
+          Proto se teď snažím do sebe nasát co nejvíce znalostí a zkušeností.
+          Bavi mě dělat věci efektivně a smysluplně. I když jsem trochu
+          introvert práce v týmu je moje věc!
+        </p>
+
         <hr />
-        <p>HTML 5, Bootstrap, Sass, Jekyll, Git, CSS, základy Pythonu</p>
+        <p>HTML, Bootstrap, Sass, React, Next.js, Now, Git</p>
         <a href="tel:+420608540464">+420 608 540 464</a>
         <br />
         <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a>
-        <p class="text-center center row pb-2">
-          <a class="pl-3" href="https://twitter.com/zuzjes" target="_blank">
-            <img
-              src={twitter}
-              alt="Twitter"
-              class="d-lg-block d-none"
-            />
+        <p className="crow">
+          <a
+            href="https://twitter.com/zuzjes"
+            className="padd-5"
+            target="_blank"
+          >
+            <img src={twitter} alt="Twitter" />
           </a>
           <a
-            class="pl-3"
             href="https://www.linkedin.com/in/zuzjes/"
+            className="padd-5"
             target="_blank"
           >
-            <img
-              src="/assets/icons/linkedin.svg"
-              alt="Linkedin"
-              class="d-lg-block d-none"
-            />
-            <img src="/assets/icons/linkedin-w.svg" class="d-block d-lg-none" />
-          </a>
-          <a class="pl-3" href="https://github.com/zuzjes" target="_blank">
-            <img
-              src="/assets/icons/github.svg"
-              alt="Github"
-              class="d-lg-block d-none"
-            />
-            <img src="/assets/icons/github-w.svg" class="d-block d-lg-none" />
+            <img src={linkedin} alt="Linkedin" />
           </a>
           <a
-            class="pl-3"
+            href="https://github.com/zuzjes"
+            className="padd-5"
+            target="_blank"
+          >
+            <img src={github} alt="Github" />
+          </a>
+          <a
             href="https://www.instagram.com/zuzjes/"
+            className="padd-5"
             target="_blank"
           >
-            <img
-              src="/assets/icons/instagram.svg"
-              alt="Instagram"
-              class="d-lg-block d-none"
-            />
-            <img
-              src="/assets/icons/instagram-w.svg"
-              class="d-block d-lg-none"
-            />
+            <img src={instagram} alt="Instagram" />
           </a>
           <a
-            class="pl-3"
             href="https://www.facebook.com/zuzka.jeschke"
+            className="padd-5"
             target="_blank"
           >
-            <img
-              src={fb}
-              alt="facebook"
-              class="d-lg-block d-none"
-            />
-            <img src="/assets/icons/facebook-w.svg" class="d-block d-lg-none" />
-            >
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a href="/resume.pdf" className="padd-5" target="_blank">
+            <img src={resume} alt="CV-pdf" height="60" />
           </a>
         </p>
       </div>
@@ -93,27 +83,44 @@ export default () => {
           .center {
             text-align: center;
           }
-          .w-40 {
-            max-width: 40%;
+          .w-45 {
+            max-width: 45%;
+          }
+          .padd-5 {
+            padding: 5px;
           }
           .container {
             padding-right: 15px;
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
+            font-family: "Cutive Mono", monospace;
+            max-width: 768px;
           }
-          h2,
-          h3,
-          h4,
-          p,
-          a {
-            font-family: "Red Hat Display", sans-serif;
+          h2 {
+            font-size: 28px;
           }
           h3 {
-            font-size: 20px;
+            font-size: 26px;
           }
-          p {
-            font-size: 18px;
+          p,
+          a {
+            font-size: 22px;
+          }
+          a {
+            color: #ff5296;
+          }
+          hr {
+            height: 1px;
+            color: black;
+            background-color: black;
+            border: none;
+          }
+          ::selection {
+            background: #88b9a5; /* WebKit/Blink Browsers */
+          }
+          ::-moz-selection {
+            background: #88b9a5; /* Gecko Browsers */
           }
         `}
       </style>
