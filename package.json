@@ -17,7 +17,8 @@
     "build": "next build",
     "static": "yarn run build && next export",
     "prettier-check": "prettier -l \"**/*.js\"",
-    "prettier-write": "prettier --write \"**/*.js\""
+    "prettier-write": "prettier --write \"**/*.js\"",
+    "now-build": "yarn run static"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
