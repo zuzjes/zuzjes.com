@@ -23,7 +23,7 @@ export default () => {
         </h1>
         <p>
           Jsem velký nadšenec do hor, lezení a do{" "}
-          <a href="https://www.instagram.com/jsemnela/">Nely</a>.
+          <a href="https://www.instagram.com/jsemnela/" target="_blank">Nely</a>.
         </p>
         <p>
           Věnuji se převážně <b>frontendu</b>, jednou chci být hustá programátorka.
