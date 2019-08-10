@@ -18,21 +18,19 @@ export default () => {
         />
       </Head>
       <div className="w-45 container">
-        <h2 className="center">
+        <h1>
           <b>Zuzka Jeschke</b>
-        </h2>
+        </h1>
         <p>
-          Jsem velký nadšenec do hor, lezení a svého psa -{" "}
+          Jsem velký nadšenec do hor, lezení a do{" "}
           <a href="https://www.instagram.com/jsemnela/">Nely</a>.
         </p>
         <p>
-          Věnuji se převážne frontendu, jednou chci být hustá programátorka.
+          Věnuji se převážně <b>frontendu</b>, jednou chci být hustá programátorka.
           Proto se teď snažím do sebe nasát co nejvíce znalostí a zkušeností.
-          Bavi mě dělat věci efektivně a smysluplně. I když jsem trochu
-          introvert práce v týmu je moje věc!
+          Baví mě dělat věci efektivně a smysluplně. I když jsem trochu
+          introvert, práce v týmu je moje věc!
         </p>
-
-        <hr />
         <p>HTML, Bootstrap, Sass, React, Next.js, Now, Git</p>
         <a href="tel:+420608540464">+420 608 540 464</a>
         <br />
@@ -73,16 +71,17 @@ export default () => {
           >
             <img src={facebook} alt="facebook" />
           </a>
-          <a href="/resume.pdf" className="padd-5" target="_blank">
+          <a
+            href="../static/resume-zuzana-jeschke.pdf"
+            className="padd-5"
+            target="_blank"
+          >
             <img src={resume} alt="CV-pdf" height="60" />
           </a>
         </p>
       </div>
       <style jsx>
         {`
-          .center {
-            text-align: center;
-          }
           .w-45 {
             max-width: 45%;
           }
@@ -97,24 +96,15 @@ export default () => {
             font-family: "Cutive Mono", monospace;
             max-width: 768px;
           }
-          h2 {
-            font-size: 28px;
-          }
-          h3 {
-            font-size: 26px;
+          h1 {
+            font-size: 3em;
           }
           p,
           a {
-            font-size: 22px;
+            font-size: 30px;
           }
           a {
             color: #ff5296;
-          }
-          hr {
-            height: 1px;
-            color: black;
-            background-color: black;
-            border: none;
           }
           ::selection {
             background: #88b9a5; /* WebKit/Blink Browsers */
