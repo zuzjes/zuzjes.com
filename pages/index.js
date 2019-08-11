@@ -34,9 +34,9 @@ export default () => {
           introvert, práce v týmu je moje věc!
         </p>
         <p>HTML, Bootstrap, Sass, React, Next.js, Now, Git</p>
-        <a href="tel:+420608540464">+420 608 540 464</a>
-        <br />
-        <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a>
+        <p><a href="tel:+420608540464">+420 608 540 464</a> 
+         (<a href="https://t.me/zuzjes">Telegram</a>)<br/>
+        <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a></p>
         <p className="crow">
           <a
             href="https://twitter.com/zuzjes"
