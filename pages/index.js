@@ -12,7 +12,7 @@ export default () => {
   return (
     <>
       <Head>
-        <title>ZuzJes</title>
+        <title>Zuzka Jeschke - zuzjes.com</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap"
