@@ -8,5 +8,14 @@
       "use": "@now/static-build",
       "config": { "distDir": "out" }
     }
+  ],
+  "routes": [
+    {
+      "src": "/resume.pdf",
+      "status": 302,
+      "headers": {
+        "Location": "/static/resume-zuzana-jeschke.pdf"
+      }
+    }
   ]
 }
