@@ -96,7 +96,7 @@ export default () => {
             margin-right: auto;
             margin-left: auto;
             font-family: "Cutive Mono", monospace;
-            max-width: 768px;
+            max-width: 800px;
           }
           h1 {
             font-size: 3em;
