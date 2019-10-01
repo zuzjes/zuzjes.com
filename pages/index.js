@@ -34,7 +34,7 @@ export default () => {
           introvert, práce v týmu je moje věc!
         </p>
         <p>HTML, Bootstrap, Sass, React, Next.js, Now, Git</p>
-        <p><a href="tel:+420608540464">+420 608 540 464</a> 
+        <p><a href="tel:+420608540464">+420 608 540 464</a>
          (<a href="https://t.me/zuzjes">Telegram</a>)<br/>
         <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a></p>
         <p className="crow">
@@ -109,10 +109,10 @@ export default () => {
             color: #ff5296;
           }
           ::selection {
-            background: #88b9a5; /* WebKit/Blink Browsers */
+            background: #b5ebde; /* WebKit/Blink Browsers */
           }
           ::-moz-selection {
-            background: #88b9a5; /* Gecko Browsers */
+            background: #b5ebde; /* Gecko Browsers */
           }
         `}
       </style>
