@@ -16,6 +16,17 @@
       "headers": {
         "Location": "/static/resume-zuzana-jeschke.pdf"
       }
+    },
+    {
+      "src": "/.well-known/security.txt",
+      "dest": "/static/security.txt"
+    },
+    {
+      "src": "/security.txt",
+      "status": 301,
+      "headers": {
+        "Location": "/.well-known/security.txt"
+      }
     }
   ]
 }
