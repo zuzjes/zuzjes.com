@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "zuzjes",
-  "alias": "zuzjes.com",
   "builds": [
     {
       "src": "package.json",
