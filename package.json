@@ -9,6 +9,7 @@
   "dependencies": {
     "next": "^9.1.0",
     "next-images": "^1.1.2",
+    "now": "^16.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
@@ -18,7 +19,8 @@
     "static": "yarn run build && next export",
     "prettier-check": "prettier -l \"**/*.js\"",
     "prettier-write": "prettier --write \"**/*.js\"",
-    "now-build": "yarn run static"
+    "now-build": "yarn run static",
+    "now": "now"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
