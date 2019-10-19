@@ -17,10 +17,6 @@
       }
     },
     {
-      "src": "/.well-known/security.txt",
-      "dest": "/static/security.txt"
-    },
-    {
       "src": "/security.txt",
       "status": 301,
       "headers": {
