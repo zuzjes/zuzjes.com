@@ -74,7 +74,7 @@ export default () => {
             <img src={facebook} alt="facebook" />
           </a>
           <a
-            href="../static/resume-zuzana-jeschke.pdf"
+            href="/resume.pdf"
             className="padd-5"
             target="_blank"
           >
