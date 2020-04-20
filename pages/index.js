@@ -1,12 +1,12 @@
-import Head from "next/head";
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
-import linkedin from "../assets/icons/linkedin.svg";
-import github from "../assets/icons/github.svg";
-import instagram from "../assets/icons/instagram.svg";
-import resume from "../assets/icons/resume.svg";
-import Gauges from "../components/Gauges";
-import GoogleAnalytics from "../components/GoogleAnalytics";
+import Head from 'next/head'
+import facebook from '../assets/icons/facebook.svg'
+import twitter from '../assets/icons/twitter.svg'
+import linkedin from '../assets/icons/linkedin.svg'
+import github from '../assets/icons/github.svg'
+import instagram from '../assets/icons/instagram.svg'
+import resume from '../assets/icons/resume.svg'
+import Gauges from '../components/Gauges'
+import GoogleAnalytics from '../components/GoogleAnalytics'
 
 export default () => {
   return (
@@ -24,19 +24,24 @@ export default () => {
           <b>Zuzka Jeschke</b>
         </h1>
         <p>
-          Jsem velký nadšenec do hor, lezení a do{" "}
-          <a href="https://www.instagram.com/jsemnela/" target="_blank">Nely</a>.
+          Jsem velký nadšenec do hor, lezení a do{' '}
+          <a href="https://www.instagram.com/jsemnela/" target="_blank">
+            Nely
+          </a>
+          .
         </p>
         <p>
-          Věnuji se převážně <b>frontendu</b>, jednou chci být hustá programátorka.
-          Proto se teď snažím do sebe nasát co nejvíce znalostí a zkušeností.
-          Baví mě dělat věci efektivně a smysluplně. I když jsem trochu
-          introvert, práce v týmu je moje věc!
+          Věnuji se převážně <b>frontendu</b>, jednou chci být hustá
+          programátorka. Proto se teď snažím do sebe nasát co nejvíce znalostí a
+          zkušeností. Baví mě dělat věci efektivně a smysluplně. I když jsem
+          trochu introvert, práce v týmu je moje věc!
         </p>
         <p>React, Next.js, JS, Now, Git, Bootstrap, Styled Components</p>
-        <p><a href="tel:+420608540464">+420 608 540 464</a>
-         (<a href="https://t.me/zuzjes">Telegram</a>)<br/>
-        <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a></p>
+        <p>
+          <a href="tel:+420608540464">+420 608 540 464</a>(
+          <a href="https://t.me/zuzjes">Telegram</a>)<br />
+          <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a>
+        </p>
         <p className="crow">
           <a
             href="https://twitter.com/zuzjes"
@@ -73,11 +78,7 @@ export default () => {
           >
             <img src={facebook} alt="facebook" />
           </a>
-          <a
-            href="/resume.pdf"
-            className="padd-5"
-            target="_blank"
-          >
+          <a href="/resume.pdf" className="padd-5" target="_blank">
             <img src={resume} alt="CV-pdf" height="60" />
           </a>
         </p>
@@ -95,7 +96,7 @@ export default () => {
             padding-left: 15px;
             margin-right: auto;
             margin-left: auto;
-            font-family: "Cutive Mono", monospace;
+            font-family: 'Cutive Mono', monospace;
             max-width: 800px;
           }
           h1 {
@@ -117,8 +118,7 @@ export default () => {
         `}
       </style>
       <Gauges gauges_site_id="5c4c99e1e2780409622de4ab" />
-      <GoogleAnalytics google_analytics_site_id="UA-133283927-1"/>
+      <GoogleAnalytics google_analytics_site_id="UA-133283927-1" />
     </>
-  );
-};
-
+  )
+}
