@@ -33,7 +33,7 @@ export default () => {
           Baví mě dělat věci efektivně a smysluplně. I když jsem trochu
           introvert, práce v týmu je moje věc!
         </p>
-        <p>HTML, Bootstrap, Sass, React, Next.js, Now, Git</p>
+        <p>React, Next.js, JS, Now, Git, Bootstrap, Styled Components</p>
         <p><a href="tel:+420608540464">+420 608 540 464</a>
          (<a href="https://t.me/zuzjes">Telegram</a>)<br/>
         <a href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</a></p>
