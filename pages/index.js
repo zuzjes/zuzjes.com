@@ -51,25 +51,24 @@ export default () => {
         <Header>Zuzka Jeschke</Header>
         <p>
           Jsem velký nadšenec do hor, lezení,{' '}
-          <A href="https://www.instagram.com/jsemnela/">Nely</A>
-          (muj pes) a svých kytek.
+          <A href="https://www.instagram.com/jsemnela/">Nely</A> (muj pes) a
+          svých kytek.
         </p>
         <p>
-          Věnuji se <b>frontendu</b>, jednou chci být ale hustá programátorka.
-          Proto se teď snažím do sebe nasát co nejvíce znalostí a zkušeností.
-          Baví mě dělat věci efektivně a smysluplně. I když jsem trochu
-          introvert, po osmělení se umim bavit, práce v týmu je moje věc!
+          Věnuji se <b>frontendu</b>, jednou chci být hustá programátorka. Proto
+          se teď snažím do sebe nasát co nejvíce znalostí a zkušeností. Baví mě
+          dělat věci efektivně a smysluplně. I když jsem trochu introvert, po
+          osmělení se umím bavit, práce v týmu je moje věc!
         </p>
         <Technologies>
-          React, Next.js, JS, Now, Git, Gitlab, Bootstrap, React Bootstrap,
-          Styled Components
+          React, Next.js, JS, Now, Git, Gitlab, Bootstrap, Styled Components
         </Technologies>
         <p>
           <A href="tel:+420608540464">+420 608 540 464</A>
           <br />
-          <A href="https://t.me/zuzjes">Telegram</A>
-          <br />
           <A href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</A>
+          <br />
+          <A href="https://t.me/zuzjes">Telegram</A>
           <br />
           <A href="/resume.pdf">CV</A>
         </p>
