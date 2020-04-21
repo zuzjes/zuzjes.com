@@ -15,9 +15,12 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 const Container = styled.div`
-  padding-left: 40px;
+  padding: 0 2em;
   font-family: 'IBM Plex Sans', sans-serif;
   max-width: 800px;
+  @media (max-width: 600px) {
+    padding: 0 1em;
+  }
 `
 const Header = styled.h1`
   font-size: 2.8em;
@@ -31,8 +34,10 @@ const A = styled.a`
 `
 const Icon = styled.a`
   padding: 0.25em;
-  &:first-child {
-    padding-left: 0;
+  @media (min-width: 600px) {
+    &:first-child {
+      padding-left: 0;
+    }
   }
 `
 export default () => {
