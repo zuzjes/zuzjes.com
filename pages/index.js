@@ -1,37 +1,37 @@
-import Head from 'next/head'
-import facebook from '../assets/icons/facebook.svg'
-import twitter from '../assets/icons/twitter.svg'
-import linkedin from '../assets/icons/linkedin.svg'
-import github from '../assets/icons/github.svg'
-import instagram from '../assets/icons/instagram.svg'
-import resume from '../assets/icons/resume.svg'
-import Gauges from '../components/Gauges'
-import GoogleAnalytics from '../components/GoogleAnalytics'
-import styled, { createGlobalStyle } from 'styled-components'
+import Head from "next/head";
+import facebook from "../assets/icons/facebook.svg";
+import twitter from "../assets/icons/twitter.svg";
+import linkedin from "../assets/icons/linkedin.svg";
+import github from "../assets/icons/github.svg";
+import instagram from "../assets/icons/instagram.svg";
+import resume from "../assets/icons/resume.svg";
+import Gauges from "../components/Gauges";
+import GoogleAnalytics from "../components/GoogleAnalytics";
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
     font-size: 1.5em;
   }
-`
+`;
 const Container = styled.div`
   padding: 0 2em;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   max-width: 800px;
   @media (max-width: 600px) {
     padding: 0 1em;
   }
-`
+`;
 const Header = styled.h1`
   font-size: 2.8em;
   margin-block-end: 0.2em;
-`
+`;
 const Technologies = styled.b`
   font-size: 1.7em;
-`
+`;
 const A = styled.a`
   color: #088958;
-`
+`;
 const Icon = styled.a`
   padding: 0.25em;
   @media (min-width: 600px) {
@@ -39,7 +39,8 @@ const Icon = styled.a`
       padding-left: 0;
     }
   }
-`
+`;
+
 export default () => {
   return (
     <>
@@ -55,7 +56,7 @@ export default () => {
       <Container>
         <Header>Zuzka Jeschke</Header>
         <p>
-          Jsem velký nadšenec do hor, lezení,{' '}
+          Jsem velký nadšenec do hor, lezení,{" "}
           <A href="https://www.instagram.com/jsemnela/">Nely</A> (muj pes) a
           svých kytek.
         </p>
@@ -75,9 +76,9 @@ export default () => {
           <br />
           <A href="https://t.me/zuzjes">Telegram</A>
           <br />
-          <A href="/resume.pdf">CV</A>
+          <A href="/resume.pdf">CV</A>, <A href="https://zuzj.es/">zuzj.es</A> (rozcestník)
         </p>
-        <p className="crow">
+        <p className="row">
           <Icon href="https://twitter.com/zuzjes">
             <img src={twitter} alt="Twitter" />
           </Icon>
@@ -93,11 +94,12 @@ export default () => {
           <Icon href="https://www.facebook.com/zuzka.jeschke">
             <img src={facebook} alt="facebook" />
           </Icon>
+
         </p>
       </Container>
 
       <Gauges gauges_site_id="5c4c99e1e2780409622de4ab" />
       <GoogleAnalytics google_analytics_site_id="UA-133283927-1" />
     </>
-  )
-}
+  );
+};
