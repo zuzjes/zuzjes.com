@@ -71,7 +71,7 @@ export default () => {
         </p>
         <Technologies>
           React, Next.js, JS, Now, Git, Gitlab, Bootstrap, Material-UI, Formik,
-          Styled Components
+          Styled&nbsp;Components
         </Technologies>
         <p>
           <A href="tel:+420608540464">+420 608 540 464</A>
