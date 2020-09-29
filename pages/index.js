@@ -1,10 +1,4 @@
 import Head from "next/head";
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
-import linkedin from "../assets/icons/linkedin.svg";
-import github from "../assets/icons/github.svg";
-import instagram from "../assets/icons/instagram.svg";
-import resume from "../assets/icons/resume.svg";
 import Gauges from "../components/Gauges";
 import GoogleAnalytics from "../components/GoogleAnalytics";
 import styled, { createGlobalStyle } from "styled-components";
@@ -32,14 +26,23 @@ const Technologies = styled.b`
 const A = styled.a`
   color: #088958;
 `;
-const Icon = styled.a`
-  padding: 0.25em;
-  @media (min-width: 600px) {
-    &:first-child {
-      padding-left: 0;
-    }
+const Button = styled.a`
+  border: 2px solid #088958;
+  padding: 0.15em 0.4em;
+  margin: 0.3em 0.6em 0.3em 0;
+  color: #088958;
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    border: 2px solid #088958;
+    padding: 0.15em 0.4em;
+    background-color: #088958;
+    color: white;
   }
 `;
+Button.defaultProps = {
+  target: "_blank"
+};
 
 export default () => {
   return (
@@ -67,7 +70,8 @@ export default () => {
           osmělení se umím bavit, práce v týmu je moje věc!
         </p>
         <Technologies>
-          React, Next.js, JS, Now, Git, Gitlab, Bootstrap, Styled Components
+          React, Next.js, JS, Now, Git, Gitlab, Bootstrap, Material-UI, Formik,
+          Styled Components
         </Technologies>
         <p>
           <A href="tel:+420608540464">+420 608 540 464</A>
@@ -76,25 +80,17 @@ export default () => {
           <br />
           <A href="https://t.me/zuzjes">Telegram</A>
           <br />
-          <A href="/resume.pdf">CV</A>, <A href="https://zuzj.es/">zuzj.es</A> (rozcestník)
+          <A href="/resume.pdf">CV</A>, <A href="https://zuzj.es/">zuzj.es</A>{" "}
+          (rozcestník)
         </p>
         <p className="row">
-          <Icon href="https://twitter.com/zuzjes">
-            <img src={twitter} alt="Twitter" />
-          </Icon>
-          <Icon href="https://www.linkedin.com/in/zuzjes/">
-            <img src={linkedin} alt="Linkedin" />
-          </Icon>
-          <Icon href="https://github.com/zuzjes">
-            <img src={github} alt="Github" />
-          </Icon>
-          <Icon href="https://www.instagram.com/zuzjes/">
-            <img src={instagram} alt="Instagram" />
-          </Icon>
-          <Icon href="https://www.facebook.com/zuzka.jeschke">
-            <img src={facebook} alt="facebook" />
-          </Icon>
-
+          <Button href="https://github.com/zuzjes">Github</Button>
+          <Button href="https://www.linkedin.com/in/zuzjes/">Linkedin</Button>
+          <Button href="https://twitter.com/zuzjes">Twitter</Button>
+          <Button href="https://www.instagram.com/zuzjes/">Instagram</Button>
+          <Button href="https://www.facebook.com/zuzka.jeschke">
+            Facebook
+          </Button>
         </p>
       </Container>
 
