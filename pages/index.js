@@ -61,7 +61,7 @@ export default () => {
         <p>
           Jsem velký nadšenec do hor, lezení,{" "}
           <A href="https://www.instagram.com/jsemnela/">Nely</A> (muj pes) a
-          svých kytek.
+          svých <A href="https://www.instagram.com/zuz_kytky/">kytek</A>.
         </p>
         <p>
           Věnuji se <b>frontendu</b>, jednou chci být hustá programátorka. Proto
@@ -74,14 +74,14 @@ export default () => {
           Styled&nbsp;Components
         </Technologies>
         <p>
-          <A href="tel:+420608540464">+420 608 540 464</A>
+          <A href="tel:+420608540464">+420 608 540 464</A> (
+          <A href="https://t.me/zuzjes">Telegram</A>)
           <br />
           <A href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</A>
           <br />
-          <A href="https://t.me/zuzjes">Telegram</A>
+          <A href="https://zuzj.es/">zuzj.es</A> (rozcestník)
           <br />
-          <A href="/resume.pdf">CV</A>, <A href="https://zuzj.es/">zuzj.es</A>{" "}
-          (rozcestník)
+          <A href="/resume.pdf">CV</A>
         </p>
         <p className="row">
           <Button href="https://github.com/zuzjes">Github</Button>
