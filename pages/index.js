@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     text-align: center;
   }
   ::selection {
-  background: #25e8da; 
+  background: #25e8da;
   }
   p {
     line-height: 30px;
@@ -87,7 +87,7 @@ export default () => (
         rel="stylesheet"
       />
     </Head>
-    
+
     <Container>
       <Header>
         <Background> Zuzka Jeschke </Background>
@@ -100,6 +100,7 @@ export default () => (
         <A href="https://zuzj.es/">zuzj.es</A>
           <br />
         <A href="/resume.pdf">CV</A>
+        <p>Číslo účtu: 2501498897 / 2010 (Fio)</p>
       </Content>
       <Content className="text-center">
         <Button style={{marginRight: "10px"}} href="https://github.com/zuzjes">Github</Button>
